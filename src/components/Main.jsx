@@ -8,7 +8,12 @@ export default function Main() {
             <div className={style.container}>
                 <div className={style.row}>
                     <div className={style.col_9}>
-                        <Numeri />
+                        {/* genero 90 numeri */}
+                        {Array.from({ length: 90 }, (_, index) => (
+                            <div key={index}>
+                                <Numeri />
+                            </div>
+                        ))}
                     </div>
                     <div className={style.col_3}>
                         <DisplayEstrazione />
