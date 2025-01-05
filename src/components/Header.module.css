@@ -1,0 +1,11 @@
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(116, 9, 98);
+    color: rgb(255, 255, 255);
+    margin-bottom: 80px;
+}
+
+.title {
+    font-size: 50px;
+}

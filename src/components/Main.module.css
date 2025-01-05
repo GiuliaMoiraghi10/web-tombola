@@ -1,0 +1,19 @@
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col_9 {
+    width: 75%;
+    /* border: 1px solid black; */
+}
+
+.col_3 {
+    width: 25%;
+    /* border: 1px solid rgb(134, 26, 26); */
+}

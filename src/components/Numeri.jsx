@@ -1,9 +1,9 @@
+import style from './Numeri.module.css'
+
 export default function Numeri() {
     return (
         <section>
-            <span>1</span>
-            <span>1</span>
-            <span>1</span>
+            <div className={style.numeri}>80</div>
         </section>
     )
 }

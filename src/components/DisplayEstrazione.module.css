@@ -1,0 +1,33 @@
+button {
+    all: unset;
+    background: rgb(116, 9, 98);
+    border: none;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.display {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px 10px;
+}
+
+.estratto {
+    border: solid 2px rgb(116, 9, 98);
+    color: black;
+    width: 80px;
+    height: 80px;
+    font-weight: 500;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
